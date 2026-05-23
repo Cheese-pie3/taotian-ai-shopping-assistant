@@ -256,7 +256,7 @@ init_state()
 st.markdown(
     """
 <div class="hero">
-  <span class="pill">淘天产品经理面试作品</span><span class="pill">AI 交互原型</span><span class="pill">模拟规则验证</span>
+  <span class="pill">产品案例</span><span class="pill">AI 交互原型</span><span class="pill">模拟规则验证</span>
   <h1>帮我凑对｜大促购物车 AI 下单陪跑助手</h1>
   <p>618 大促场景下，用户购物车已有商品但看不懂复杂优惠。本 Demo 演示 AI 如何帮助用户判断：直接买、凑单买，还是再等等。</p>
 </div>
@@ -575,7 +575,7 @@ with right:
             "凑单建议必须同时看省钱结果和商品风险。",
             f"系统会比较当前直接买 {money(current_pay)} 与加入候选凑单品后的实付差额。",
             "如果只是多买一个不需要的商品，哪怕触发优惠，也可能不是更优体验。",
-            "优先看前三个候选；面试展示时可切换不同意图观察排序变化。",
+            "优先看前三个候选；可切换不同意图观察排序变化。",
         )
         for _, row in candidates.head(6).iterrows():
             st.markdown(
@@ -639,7 +639,7 @@ with right:
             "价保提醒是降低现在下单后降价焦虑的辅助能力。",
             "Demo 使用模拟价保流程展示：下单、监控、发现降价、申请补差。",
             "真实落地需要订单、价保期、价格变化和补差入口数据。",
-            "面试讲解时强调它不是替代平台价保，而是把价保变成主动提醒。",
+            "它不是替代平台价保，而是把价保变成主动提醒。",
         )
         if st.button("开启价保提醒", use_container_width=True):
             st.session_state.price_protection = True
@@ -729,20 +729,20 @@ with right:
             st.rerun()
 
 st.markdown('<div class="card">', unsafe_allow_html=True)
-st.markdown('<div class="section">面试展示说明</div>', unsafe_allow_html=True)
+st.markdown('<div class="section">项目说明</div>', unsafe_allow_html=True)
 st.markdown(
     """
 <div class="pm-grid">
   <div class="pm-card">
-    <b>产品判断</b><br/>
+    <b>产品价值</b><br/>
     这个原型验证的是大促下单前的决策链路：优惠是否生效、凑单是否真的省钱、现在买还是等。
   </div>
   <div class="pm-card">
-    <b>真实落地依赖</b><br/>
+    <b>落地依赖</b><br/>
     需要接入购物车、营销权益、会场券、直播券、用户已领券、价格历史、订单和价保 API。
   </div>
   <div class="pm-card">
-    <b>核心指标</b><br/>
+    <b>验证指标</b><br/>
     可观察凑单建议采纳率、优惠使用率、下单转化率、价保提醒使用率、解释满意度和不必要凑单减少率。
   </div>
 </div>
