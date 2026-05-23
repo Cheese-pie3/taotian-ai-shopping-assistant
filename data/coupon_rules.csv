@@ -1,0 +1,9 @@
+﻿coupon_id,coupon_name,coupon_type,threshold,discount,discount_type,scope,stackable,priority,phase,need_claim,note
+C001,店铺券 满300减10,店铺券,300,10,fixed,shop:S01,yes,1,all,yes,店铺券需要先领取，满足店铺金额门槛后生效
+C002,官方立减50,官方立减,0,50,fixed,all,yes,2,all,no,商品参加官方活动即可使用
+C003,88VIP 9.5折,会员折扣,0,0.95,percent,all,yes,3,all,yes,按前序优惠后的金额打95折
+C006,品类券 满300减30,品类券,300,30,fixed,category:鞋靴,yes,4,"品类加码日,618当天",yes,适用于鞋靴品类
+C007,红包40,红包,0,40,fixed,all,yes,5,all,yes,支付时最后抵扣
+C008,跨店满400减50,跨店满减,400,50,fixed,all,yes,6,"开门红,618当天",no,大促通用满减规则
+C009,88VIP消费券 满480减60,88VIP消费券,480,60,fixed,all,yes,7,"开门红,618当天",yes,会员消费券，需要先领取
+C004,直播间券 减20,直播券,0,20,fixed,live,yes,8,直播加码,yes,仅直播间领取后可用，不承诺一定存在

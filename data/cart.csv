@@ -1,0 +1,12 @@
+product_id,name,price,category,shop_id,selected,urgent,support_price_protection,shipping_days,return_policy,is_live_item
+P001,洞洞鞋,449,鞋靴,S01,yes,no,yes,2,7天无理由,yes
+P002,洗发水,89,个护,S02,yes,yes,no,1,7天无理由,no
+P003,纸巾家庭装,39,家清,S03,yes,yes,no,1,不支持拆封后退货,no
+P004,防晒霜,129,个护,S02,no,no,yes,1,7天无理由,no
+P005,收纳箱,59,家居,S04,no,no,no,2,7天无理由,no
+P006,运动袜三双装,49,服饰,S07,no,no,no,2,7天无理由,no
+P007,充电宝,159,数码,S06,no,no,yes,3,7天无理由,no
+P008,牙膏家庭装,69,个护,S02,no,yes,no,1,7天无理由,no
+P009,猫砂,79,宠物,S08,no,yes,no,2,不支持拆封后退货,no
+P010,咖啡豆,98,食品,S09,no,no,no,2,不支持拆封后退货,no
+P011,夏季T恤,119,服饰,S07,no,no,yes,2,7天无理由,no

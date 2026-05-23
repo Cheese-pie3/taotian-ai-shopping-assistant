@@ -1,0 +1,9 @@
+﻿product_id,date,listed_price,final_price,event_tag
+P001,2026-05-01,289,289,normal
+P001,2026-05-10,299,289,normal
+P001,2026-05-25,329,329,pre_event_raise
+P001,2026-06-18,329,269,618_discount
+P002,2026-05-01,99,89,normal
+P002,2026-06-18,99,79,618_discount
+P003,2026-05-01,45,39,normal
+P003,2026-06-18,45,36,618_discount
