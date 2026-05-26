@@ -747,7 +747,7 @@ st.markdown(
   </div>
 </div>
 <div class="muted" style="margin-top:12px;">
-当前为作品集 Demo，使用模拟购物车和模拟优惠规则。不接入真实淘宝/京东 API，不声称识别所有隐藏优惠、直播券或真实历史价格。
+当前为产品原型 Demo，使用模拟购物车和模拟优惠规则。不接入真实淘宝/京东 API，不声称识别所有隐藏优惠、直播券或真实历史价格。
 </div>
 """,
     unsafe_allow_html=True,
